@@ -1,0 +1,35 @@
+body{
+	background-image: url("mountains.jpg");
+	background-repeat:no-repeat;
+   	background-size:cover;
+
+   	font-family: 'Abril Fatface', Helvetica;
+
+}
+
+.display-4 {
+	text-align: center;
+}
+
+.c {
+	display: flex;
+	align-content: space-around;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.b {
+	margin: 10px;
+	background-color: red;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.btn-outline-dark{
+	display: flex;
+  	justify-content: center;
+	color:black;
+  	border: 1px solid black;
+}
